@@ -7,13 +7,20 @@
 </head>
 <body>
     <img id="logo" src="img/ecorp.png">
+
     <section id="content">
         <form id="password-form">
-            <label for="submit-password">Enter the password:</label>
-            <input id="submit-password">
+            <label for="input-password">Enter the password:</label>
+            <input id="input-password">
             <button type="submit">Submit</button>
         </form>
+        <div id="output">
+            <p id="status"></p>
+            <pre id="next-step"></pre>
+        </div>
     </section>
+
+    <script src="crypto.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

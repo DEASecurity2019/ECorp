@@ -11,5 +11,11 @@ body {
 
 #content {
     background-color: dimgrey;
+    max-width: 50%;
     padding: 3em 3em 3em 3em;
+}
+
+#next-step {
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
